@@ -1,0 +1,17 @@
+
+
+table{
+    border: 2px solid red;
+    border-collapse: collapse;
+    height: 400px;
+    width: 750px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
