@@ -1,0 +1,120 @@
+html{
+    background-color: black;
+}
+#heading{
+    background-color: rgb(203, 41, 87);
+    color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 45px;
+    margin-left: 75px;
+    margin-right: 75px;
+    box-shadow: 0px 0px 45px rgb(203, 41, 87);
+}
+
+#formdiv{
+    display: block;
+    /* background-color: rgb(221, 221, 221); */
+    
+    
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.maindiv{
+    display: flex;
+    border: 2px solid grey;
+    margin-top: 100px;
+    border-radius: 30px;
+    flex-direction: row;
+    background-color: black;
+    color: silver;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 90px rgb(203, 41, 87);
+}
+label{
+    color: silver;
+}
+img{
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 75px;
+    border-radius: 30px;
+    box-shadow: 0 0 60px palevioletred;
+    
+
+}
+body{
+    
+    text-align: center;
+}
+
+#btn1{
+    margin-top: 50px;
+    height: 45px;
+    width: 150px;
+    border-radius: 30px;
+    color: rgb(238, 238, 238);
+    background-color: blue;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 45px blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+
+}
+#btn1:hover{
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 65px aqua;
+    transition: 0.2s ease 0s;
+}
+
+label{
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(203, 41, 87);
+    
+}
+input{
+    background-color: rgb(221, 221, 221, 0.2);
+    border: 1px solid black;
+    box-shadow: 0 0 10px grey;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    color: silver;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+input:hover{
+    box-shadow: 0 0 35px silver;
+    transition: 0.2s ease 0s;
+}
+
+label:hover{
+    
+    /* border-radius: 60px solid white; */
+    font-size: 35px;
+    /* box-shadow: 0 0 15px silver; */
+    /* border-radius: 15px; */
+    text-shadow: 0 0 45px plum;
+    transition: 0.3s ease-in-out 0s;
+}
+
+img:hover{
+    box-shadow: 0 0 75px plum;
+    transition: 0.4s ease-out 0.3s;
+}
